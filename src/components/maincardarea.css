@@ -1,0 +1,45 @@
+.main-card-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 3fr 3fr;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid #e9ecef;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #e9ecef;
+  min-height: 35vh;
+  min-width: 10vw;
+  width: 15vw;
+  border-radius: 25px;
+  background-color: rgb(36, 55, 73);
+  transition: 0.5s;
+}
+
+.card:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #e9ecef;
+  min-height: 35vh;
+  min-width: 10vw;
+  width: 15vw;
+  background-color: #306857;
+  border-radius: 25px;
+  scale: 1.05;
+}
+
+.pokecard {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
